@@ -20,6 +20,7 @@
 */
 
 #include "grbl.h"
+#undef USEUSB
 // Declare system global variable structure
 system_t sys;
 int32_t sys_position[N_AXIS];      // Real-time machine (aka home) position vector in steps.

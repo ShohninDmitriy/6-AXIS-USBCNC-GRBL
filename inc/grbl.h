@@ -107,7 +107,7 @@ typedef int bool;
 #include "spindle_control.h"
 #include "stepper.h"
 #include "jog.h"
-
+//#undef USEUSB
 // ---------------------------------------------------------------------------------------
 // COMPILE-TIME ERROR CHECKING OF DEFINE VALUES:
 
